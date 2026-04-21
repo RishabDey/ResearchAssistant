@@ -13,7 +13,7 @@ fastapi
 uvicorn
 requests
 langchain_huggingface
-
+torchvision
 # Tavily Search Tool
 tavily-python>=0.3.0
 
