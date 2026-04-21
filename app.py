@@ -4,7 +4,7 @@ from agents import (build_search_agent,build_reader_agent,writer_chain,critic_ch
 
 # ── Page config
 st.set_page_config(
-    page_title="Research Assistant: A Source-Aware Multi-Agent Research Pipeline",
+    page_title="Research Assistant",
     page_icon="🔬",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -47,7 +47,7 @@ with st.sidebar:
 st.markdown(
     """
     <div style='padding: 1.8rem 0 1.2rem;'>
-        <h2 style='margin:0; font-size:1.7rem;'>Research Assistant</h2>
+        <h2 style='margin:0; font-size:1.7rem;'>Research Assistant : A Source-Aware Multi-Agent Research Pipeline </h2>
         <p style='color:#475569; font-size:0.9rem; margin:0.4rem 0 0;'>
             Enter a topic and let the agent pipeline research, write, and evaluate a report for you.
         </p>
