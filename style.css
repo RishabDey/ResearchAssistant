@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.stApp {
+    background: #0d0d14;
+    color: #cbd5e1;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: #f1f5f9;
+}
+
+/* ── Sidebar ── */
+section[data-testid="stSidebar"] {
+    background: #bfecf7;
+    border-right: 2px solid #7dd3ea;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #1a3a4a !important;
+}
+
+section[data-testid="stSidebar"] h4,
+section[data-testid="stSidebar"] b {
+    color: #0d2535 !important;
+}
+
+section[data-testid="stSidebar"] hr {
+    border-color: #7dd3ea !important;
+}
+
+section[data-testid="stSidebar"] .stCaption,
+section[data-testid="stSidebar"] caption {
+    color: #2e6a85 !important;
+}
+
+/* ── Input ── */
+.stTextInput > div > div > input {
+    background: #15151f;
+    border: 1px solid #2a3f5a;
+    color: #e2e8f0;
+    border-radius: 8px;
+    padding: 13px 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    transition: border-color 0.2s;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: #22c9d4;
+    box-shadow: 0 0 0 2px rgba(34, 201, 212, 0.15);
+}
+
+.stTextInput > label {
+    color: #4a8fa8 !important;
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* ── Button ── */
+.stButton > button {
+    background: #0e7490;
+    color: #f0faff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.01em;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.stButton > button:hover {
+    background: #0891b2;
+    box-shadow: 0 4px 16px rgba(8, 145, 178, 0.45);
+}
+
+/* ── Download button ── */
+.stDownloadButton > button {
+    background: transparent;
+    color: #22d3ee;
+    border: 1px solid #164e63;
+    border-radius: 8px;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.82rem;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.stDownloadButton > button:hover {
+    background: #082f3e;
+    border-color: #22d3ee;
+}
+
+/* ── Cards ── */
+.result-card {
+    background: #111827;
+    border: 1px solid #1e3a52;
+    border-left: 3px solid #0891b2;
+    border-radius: 10px;
+    padding: 1.6rem 1.8rem;
+    margin: 0.8rem 0;
+}
+
+.feedback-card {
+    background: #0c1e2e;
+    border: 1px solid #164e63;
+    border-left: 3px solid #22d3ee;
+    border-radius: 10px;
+    padding: 1.6rem 1.8rem;
+    margin: 0.8rem 0;
+}
+
+.panel-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #38bdf8;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.9rem;
+}
+
+/* ── Status containers ── */
+.stStatusContainer {
+    border-radius: 8px;
+    border: 1px solid #1e3a52 !important;
+    background: #111827 !important;
+}
+
+/* ── Expanders ── */
+.streamlit-expanderHeader {
+    font-size: 0.85rem;
+    color: #4a8fa8 !important;
+    font-weight: 500;
+}
+
+/* ── Dividers ── */
+hr {
+    border-color: #1e3a52;
+}
+
+/* ── Caption / footer text ── */
+.stCaption {
+    color: #2e6a85 !important;
+    font-size: 0.8rem;
+}
+
+/* ── Success / error messages ── */
+.stAlert {
+    border-radius: 8px;
+}
